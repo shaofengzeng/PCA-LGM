@@ -8,14 +8,15 @@ As we all know, PCA-GM input two attribute graphs into the network, where the gr
 
 
 # Before Training
- Run this repo. in docker.  
- 0. Clone this repository
- 1. Install [docker](https://docs.docker.com/engine/install/ubuntu/)
- 2. Pull Image of pytorch1.2  
+ Run this code in docker.  
+   
+ 1. Clone this repository
+ 2. Install [docker](https://docs.docker.com/engine/install/ubuntu/)
+ 3. Pull Image of pytorch1.2  
     `docker pull siaimes/pytorch1.2:v1.0.1`
- 3. Show docker image id  
+ 4. Show docker image id  
     `docker images`
- 4. Run docker  
+ 5. Run docker  
     `docker run -it -v dir_to_PCA_LGM:/home/workdir --gpus all --shm-size 32G IMAGE_ID /bin/bash`
 
 
