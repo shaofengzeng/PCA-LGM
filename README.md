@@ -8,7 +8,7 @@ As we all know, PCA-GM input two attribute graphs into the network, where the gr
 
 
 # Before Training
- Run this repo. in docker.
+ Run this repo. in docker.  
  0. Clone this repository
  1. Install [docker](https://docs.docker.com/engine/install/ubuntu/)
  2. Pull Image of pytorch1.2  
